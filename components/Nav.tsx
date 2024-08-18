@@ -11,7 +11,7 @@ const links = [
 
   {
     name: "Products",
-    path: "/products",
+    path: "/product",
   },
 
   {
