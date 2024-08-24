@@ -1,5 +1,6 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import { Inter } from "next/font/google";
+import OnlineChat from "@/components/OlineChat";
 import "./globals.css";
 
 import Header from "@/components/Header";
@@ -7,7 +8,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Mood Music App",
+  title: "Eka's Crafts",
   description: "Find music based on your mood.",
 };
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <body className={inter.className}>
           <Header />
           {children}
+          <OnlineChat />
         </body>
       </html>
     </ClerkProvider>

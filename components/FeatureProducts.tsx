@@ -39,7 +39,7 @@ const featuredProducts: Product[] = [
 
 const FeaturedProducts: React.FC = () => {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16  border-b-2 border-purple-500/10">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
           Featured Products
@@ -60,7 +60,7 @@ const FeaturedProducts: React.FC = () => {
                   {product.name}
                 </h3>
                 <p className="text-gray-600">{product.price}</p>
-                <button className="mt-4 w-full bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded">
+                <button className="mt-4 w-full bg-[#60AFFF] hover:bg-[#28C2FF] text-white py-2 px-4 rounded">
                   Buy Now
                 </button>
               </div>

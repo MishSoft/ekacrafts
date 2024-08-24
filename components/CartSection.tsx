@@ -23,13 +23,12 @@ export default function CartSection() {
       <SheetContent className="flex flex-col items-center justify-center">
         <SheetHeader>
           <SheetTitle className="text-center text-3xl">Cart</SheetTitle>
-          <SheetDescription className="border flex items-center justify-center">
+          <SheetDescription className="flex items-center justify-center">
             <Image
-              src="/public/empty-cart.png"
-              width={200}
-              height={200}
+              src="/empty-cart.png"
+              width={300}
+              height={300}
               alt="Cart image"
-              className="border"
             />
           </SheetDescription>
         </SheetHeader>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative text-purple-500 bg-customBrown  h-screen flex items-center justify-center">
+    <section className="relative border-b-2 border-purple-500/10 text-[#3066BE] bg-customBrown  h-screen flex items-center justify-center">
       {/* Background Image */}
       <div className="absolute inset-0 overflow-hidden z-0">
         <Image
@@ -22,7 +22,7 @@ const Hero = () => {
         </p>
         <a
           href="/shop"
-          className="bg-customPurple bg-purple-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-customLightPurple transition duration-300"
+          className="bg-customPurple bg-[#3066BE] text-white py-3 px-6 rounded-lg shadow-lg hover:bg-customLightPurple transition duration-300"
         >
           Shop Now
         </a>

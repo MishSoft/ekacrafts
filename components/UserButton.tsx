@@ -25,13 +25,13 @@ export function UserButton() {
       <DropdownMenuContent className="w-56">
         <DropdownMenuGroup>
           <DropdownMenuItem className="cursor-pointer">
-            <Link className="w-full" href="/sign-in">
+            <Link className="w-full" href="/auth/sign-in">
               Sign in
             </Link>
           </DropdownMenuItem>
           <DropdownMenuSeparator />
           <DropdownMenuItem className="cursor-pointer">
-            <Link className="w-full" href="/sign-up">
+            <Link className="w-full" href="/auth/sign-up">
               Sign Out
             </Link>
           </DropdownMenuItem>
